@@ -1,10 +1,10 @@
-# Exchange Scripts
+# Exchange Bulk Deleting Email Script
 
 This PowerShell script provides a powerful and automated way to delete specific emails from multiple user mailboxes in an Exchange on-premises environment. It is designed for administrators who need to perform targeted cleanups, such as removing phishing emails or messages sent in error.
 
 ---
 
-##  기능
+##  Mechanism
 
 -   **Bulk Processing:** Reads a CSV file to process multiple deletion tasks at once.
 -   **Targeted Deletion:** Deletes emails based on a combination of Sender (`From`), Recipient (`To`), and `Subject`.
